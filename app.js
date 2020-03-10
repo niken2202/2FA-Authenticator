@@ -5,6 +5,7 @@ app.get('/', function (req, res) {
   res.send(auth.getCode(req.query.secret));
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+var port=process.env.PORT;
+app.listen(port, function () {
+  console.log(`Example app listening on port ${port} !`);
 });
