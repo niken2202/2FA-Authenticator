@@ -1,0 +1,27 @@
+{
+  "name": "2fa",
+  "version": "1.0.0",
+  "description": "Implement 2FA",
+  "main": "app.js",
+  "dependencies": {
+    "authenticator": "^1.1.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "hi-base32": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+	"start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niken2202/2FA-Authenticator.git"
+  },
+  "author": "Le Trong Thang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niken2202/2FA-Authenticator/issues"
+  },
+  "homepage": "https://github.com/niken2202/2FA-Authenticator#readme"
+}
